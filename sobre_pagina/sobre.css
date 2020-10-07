@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(83, 83, 83);
+    font: normal;
+}
+
+.menu {
+    color: black;
+    font-family: monospace;
+    font-size: 70pt;
+    text-align: center;
+    margin: auto;
+    width: max-content;
+    transition: 0.4s;
+}
+
+.menu:hover {
+    font-size: 60pt;
+}
+
+.link_digital {
+    color: black;
+    font-style: none;
+    text-decoration-line: none;
+}
+
+.perguntas {
+    font-family: monospace;
+    font-size: 40pt;
+}
+
+.respostas {
+    font-family: fantasy;
+    font-size: 20pt;
+}
+
+.imagem_higor {
+    margin: auto;
+    width: 160px;
+    border: 3px;
+    border-color: black;
+    border-radius: 7px;
+    border-style: solid;
+}
+
+.imagem_yago {
+    width: 160px;
+    border: 3px;
+    border-color: black;
+    border-radius: 7px;
+    border-style: solid;
+}
+
+.botao_higor, .botao_yago {
+    background-color: rgb(179, 174, 174);
+    color: rgb(66, 66, 66);
+    box-shadow: 1px 1px 2px rgb(41, 40, 40);
+    transition: 0.3s;
+}
+
+.botao_higor:hover, .botao_yago:hover {
+    background-color: rgb(73, 71, 71);
+    color: rgb(194, 189, 189);
+    box-shadow: 1px 1px 2px black;
+}
+
+.botao_higor:active, .botao_yago:active {
+    background-color: rgb(184, 8, 8);
+    color: rgb(231, 124, 124);
+    box-shadow: 1px 1px 2px rgb(110, 4, 4);
+}

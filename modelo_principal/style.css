@@ -37,6 +37,7 @@ ul{
     text-shadow: 2px 2px 3px rgb(10, 10, 10);
 }
 .lojas_higor {
+    color: black;
     font-family: monospace;
     font-size: 70pt;
     text-align: center;
@@ -53,7 +54,6 @@ ul{
 .conteudo {
     font-family: Arial;
     font-size: 20pt;
-    
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -94,11 +94,10 @@ h3:hover{
     width: 70%;
     margin: auto;
     border-radius: 14px;
+    padding-top: 10px;
 }
 
 .botao {
-    display: block;
-    float: right;
     color: rgb(173, 171, 171);
     font-family: monospace;
     font-size: 20px;
@@ -106,7 +105,8 @@ h3:hover{
     background-color: rgb(26, 25, 25);
     border-radius: 7px;
     box-shadow: 2px 2px 3px black;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
+    margin-left: 100px;
     width: 90px;
     height: 30px;
     transition: 0.5s;
@@ -120,4 +120,15 @@ h3:hover{
 
 .rodape {
     margin-top: 300px;
+}
+
+.produto {
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    width: 250px;
+    border: 3px;
+    border-radius: 7px;
+    border-color: rgb(92, 92, 92);
+    border-style: solid;
 }
