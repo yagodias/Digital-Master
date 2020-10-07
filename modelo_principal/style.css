@@ -100,22 +100,24 @@ h3:hover{
 .botao {
     color: rgb(173, 171, 171);
     font-family: monospace;
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     background-color: rgb(26, 25, 25);
     border-radius: 7px;
     box-shadow: 2px 2px 3px black;
     margin-bottom: 50px;
+    margin-top: 30px;
     margin-left: 100px;
     width: 90px;
     height: 30px;
     transition: 0.5s;
 }
 
+
 .botao:hover{
-    font-size: 26px;
-    width: 120px;
-    height: 60px;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
 }
 
 .rodape {
@@ -131,4 +133,23 @@ h3:hover{
     border-radius: 7px;
     border-color: rgb(92, 92, 92);
     border-style: solid;
+    transition: 0.5s;
+}
+
+.produto:hover {
+    width: 500px;
+}
+
+.descricao {
+    color: rgb(97, 95, 95);
+    font-size: 20px;
+    font-family: fantasy;
+    margin-left: 100px;
+    text-decoration-line: none;
+    transition: 0.4s;
+}
+
+.descricao:hover {
+    color: rgb(31, 30, 30);
+    font-size: 30px;
 }
