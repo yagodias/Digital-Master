@@ -3,6 +3,43 @@ body {
     font: normal;
 }
 
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.topnav{
+    font-family: monospace;
+    background-color: rgb(34, 33, 33);
+
+    overflow: hidden;
+    width: 100%;
+    border-radius: 50px;
+    display: block;
+    float: right;
+}
+
+.topnav a{
+    text-shadow: 2px 2px 3px rgb(78, 78, 78);
+    float: right;
+    color: rgb(141, 140, 140);
+    text-align: center;
+    padding: 23px 20px;
+    text-decoration: none;
+    font-size: 30pt;
+    transition: 0.4s;
+}
+
+.topnav a:hover{
+    background-color: rgb(71, 70, 70);
+    color:  rgb(184, 201, 181);
+    font-size: 40pt;
+    text-shadow: 2px 2px 3px rgb(10, 10, 10);
+}
+
 .menu {
     color: black;
     font-family: monospace;
@@ -51,16 +88,16 @@ body {
 }
 
 .botao_higor, .botao_yago {
-    background-color: rgb(179, 174, 174);
-    color: rgb(66, 66, 66);
-    box-shadow: 1px 1px 2px rgb(41, 40, 40);
+    background-color: rgb(73, 71, 71);
+    color: rgb(194, 189, 189);
+    box-shadow: 1px 1px 2px black;
     transition: 0.3s;
 }
 
 .botao_higor:hover, .botao_yago:hover {
-    background-color: rgb(73, 71, 71);
-    color: rgb(194, 189, 189);
-    box-shadow: 1px 1px 2px black;
+    background-color: rgb(179, 174, 174);
+    color: rgb(66, 66, 66);
+    box-shadow: 1px 1px 2px rgb(41, 40, 40);
 }
 
 .botao_higor:active, .botao_yago:active {

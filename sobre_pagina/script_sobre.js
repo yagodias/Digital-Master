@@ -1,7 +1,7 @@
 function higor() {
-    alert("Higor Dias, o cara chefe da empresa")
+    alert("Higor Dias, the boss of the company")
 }
 
 function yago() {
-    alert("Yago Dias, o cara do desenvolvimento website")
+    alert("Yago Dias, the website development guy")
 }
