@@ -3,21 +3,21 @@ body {
     font: normal;
 }
 
-/*
-.link_digital {
-    color: black;
-    text-decoration-line: none;
+#link_digital {
+    float: left;
 }
 
-.menu {
-    color: black;
-    text-align: center;
-    font-family: monospace;
-    font-size: 70pt;
-    width: max-content;
-    margin: auto;
-    transition: 0.4s;
-} */
+#link_digital a {
+    color:  rgb(58, 57, 57);
+    text-shadow: 2px 2px 3px  rgb(20, 20, 20);
+}
+
+#link_digital a:hover {
+    background-color: rgb(71, 70, 70);
+    color:  rgb(184, 201, 181);
+    font-size: 34pt;
+    text-shadow: 2px 2px 3px rgb(10, 10, 10);
+}
 
 ul{
     list-style-type: none;
@@ -25,26 +25,13 @@ ul{
     padding: 0;
 }
 
-
-.menu {
-    text-shadow: 2px 2px 3px rgb(78, 78, 78);
-    color: rgb(141, 140, 140);
-    text-align: center;
-    padding: 21px 18px;
-    text-decoration: none;
-    font-size: 30pt;
-    float: right;;
-    transition: 0.4s;
-}
-
 .topnav{
     font-family: monospace;
     background-color: rgb(34, 33, 33);
     overflow: hidden;
     width: 100%;
-    border-radius: 50px;
-    display: block;
-    float: right;
+    border-radius: 25px;
+    margin: auto;
 }
 
 .topnav a{
@@ -61,7 +48,7 @@ ul{
 .topnav a:hover{
     background-color: rgb(71, 70, 70);
     color:  rgb(184, 201, 181);
-    font-size: 40pt;
+    font-size: 34pt;
     text-shadow: 2px 2px 3px rgb(10, 10, 10);
 }
 
