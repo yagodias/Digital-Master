@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(83, 83, 83);
+    font: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#link_digital {
+    float: left;
+}
+
+#link_digital a {
+    color: rgb(58, 57, 57);
+    text-shadow: 2px 2px 3px rgb(20, 20, 20);
+}
+
+#link_digital a:hover {
+    background-color: rgb(71, 70, 70);
+    color: rgb(184, 201, 181);
+    font-size: 34pt;
+    text-shadow: 2px 2px 3px rgb(10, 10, 10);
+}
+
+.topnav {
+    font-family: monospace;
+    background-color: rgb(34, 33, 33);
+    overflow: hidden;
+    width: 100%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.topnav a {
+    text-shadow: 2px 2px 3px rgb(78, 78, 78);
+    float: right;
+    color: rgb(141, 140, 140);
+    text-align: center;
+    padding: 23px 20px;
+    text-decoration: none;
+    font-size: 30pt;
+    transition: 0.4s;
+}
+
+.topnav a:hover {
+    background-color: rgb(71, 70, 70);
+    color: rgb(184, 201, 181);
+    font-size: 34pt;
+    text-shadow: 2px 2px 3px rgb(10, 10, 10);
+}
+
+form {  
+    width: 300px;
+    padding: 1em;
+    margin-top: 60px;
+    margin-left: 10px;
+    border: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgb(48, 46, 46);
+    border-radius: 7px;
+    box-shadow: 4px 4px 3px rgb(24, 22, 22);
+}
+
+form div + div {
+    margin-top: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 104px;
+    margin: auto;
+    text-align: left;
+    font-family: monospace;
+    font-size: 15pt;
+    transition: 0.3s;
+}
+
+label:hover {
+    font-size: 20pt;
+}
+
+input {
+    font-size: 15pt;
+    font-family: monospace;
+    background-color: rgb(83, 83, 83);
+    margin: 10px auto;
+    transition: 0.3s;
+}
+
+input:hover {
+    font-size: 19pt;
+}
+
+.botao {
+    color: rgb(153, 153, 153);
+    background-color: rgb(32, 32, 32);
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 4px 4px 2px rgb(12, 11, 11);
+    transition: 0.3s;
+}
+
+.botao:hover {
+    font-size: 19pt;
+    color: rgb(230, 8, 8);
+    background-color: rgb(54, 8, 8);
+    box-shadow: 4px 4px 2px rgb(7, 0, 0);
+}
