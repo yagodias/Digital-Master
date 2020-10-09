@@ -1,3 +1,8 @@
+body {
+    background-color: rgb(83, 83, 83);
+    font: normal;
+}
+
 #link_digital {
     float: left;
 }
@@ -47,3 +52,48 @@ ul{
     font-size: 40pt;
     text-shadow: 2px 2px 3px rgb(10, 10, 10);
 }
+
+.insta {
+    font-family: fantasy;
+    font-size: 20pt;
+    
+}
+
+.link_insta {
+    text-decoration-line: none;
+    color: rgb(22, 21, 21);
+    text-shadow: 2px 2px 3px rgb(1, 206, 35);
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+.link_insta:hover {
+    color: rgb(168, 168, 168);
+    text-shadow: 2px 2px 2px rgb(197, 10, 10);
+    text-decoration-line: underline;
+}
+
+.fone {
+    font-family: cursive;
+    font-size: 20pt;
+}
+
+h2 {
+    font-family: monospace;
+    color: rgb(163, 163, 163);   
+    text-shadow:2px 2px 1px black;
+    font-size: 20pt;
+    width: max-content;
+    transition: 0.3s;
+}
+
+h2:hover {
+    color: white;
+    text-shadow: 2px 2px 3px rgb(255, 0, 0);
+    font-size: 25pt;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 40pt;
+}   
