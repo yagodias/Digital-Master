@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(83, 83, 83);
+    font: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#link_digital {
+    float: left;
+}
+
+#link_digital a {
+    color: rgb(58, 57, 57);
+    text-shadow: 2px 2px 3px rgb(20, 20, 20);
+}
+
+#link_digital a:hover {
+    background-color: rgb(71, 70, 70);
+    color: rgb(184, 201, 181);
+    font-size: 34pt;
+    text-shadow: 2px 2px 3px rgb(10, 10, 10);
+}
+
+.topnav {
+    font-family: monospace;
+    background-color: rgb(34, 33, 33);
+    overflow: hidden;
+    width: 100%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.topnav a {
+    text-shadow: 2px 2px 3px rgb(78, 78, 78);
+    float: right;
+    color: rgb(141, 140, 140);
+    text-align: center;
+    padding: 23px 20px;
+    text-decoration: none;
+    font-size: 30pt;
+    transition: 0.4s;
+}
+
+.topnav a:hover {
+    background-color: rgb(71, 70, 70);
+    color: rgb(184, 201, 181);
+    font-size: 34pt;
+    text-shadow: 2px 2px 3px rgb(10, 10, 10);
+}
+
+.dark_matter {
+    font-family: monospace;
+    font-size: 70pt;
+    color: rgb(29, 29, 29);
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    margin-top: 0;
+}
+
+.explicao {
+    color: rgb(20, 20, 20);
+    text-shadow: 2px 2px 3px rgb(190, 190, 190);
+    font-family: cursive;
+    font-size: 28pt;
+    text-align: center;
+}
