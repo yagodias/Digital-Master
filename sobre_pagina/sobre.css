@@ -30,6 +30,7 @@ ul{
 .topnav{
     font-family: monospace;
     background-color: rgb(34, 33, 33);
+    box-shadow: 6px 7px 3px rgb(14, 14, 14);
     overflow: hidden;
     width: 100%;
     border-radius: 25px;
@@ -37,7 +38,7 @@ ul{
 }
 
 .topnav a{
-    text-shadow: 2px 2px 3px rgb(78, 78, 78);
+    text-shadow: 2px 2px 3px rgb(5, 5, 5);
     float: right;
     color: rgb(141, 140, 140);
     text-align: center;
@@ -60,22 +61,23 @@ ul{
 }
 
 .respostas {
-    font-family: fantasy;
+    font-family: Arial;
     font-size: 20pt;
 }
 
 .imagem_higor {
-    margin: auto;
+    margin-top: auto;
     width: 160px;
-    border: 3px;
+    border: 2px;
     border-color: black;
     border-radius: 7px;
     border-style: solid;
 }
 
 .imagem_yago {
+    margin-top: 20px;
     width: 160px;
-    border: 3px;
+    border: 2px;
     border-color: black;
     border-radius: 7px;
     border-style: solid;
@@ -85,17 +87,32 @@ ul{
     background-color: rgb(73, 71, 71);
     color: rgb(194, 189, 189);
     box-shadow: 1px 1px 2px black;
-    transition: 0.3s;
+    width: 40px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: black;
+    transition: 0.4s;
 }
 
 .botao_higor:hover, .botao_yago:hover {
     background-color: rgb(179, 174, 174);
     color: rgb(66, 66, 66);
     box-shadow: 1px 1px 2px rgb(41, 40, 40);
+    border-color: rgb(53, 53, 53);
 }
 
-.botao_higor:active, .botao_yago:active {
-    background-color: rgb(184, 8, 8);
-    color: rgb(231, 124, 124);
-    box-shadow: 1px 1px 2px rgb(110, 4, 4);
+.rodape {
+    font-family: cursive;
+    font-size: 20pt; 
+    text-align: center;
+    margin: 30px;
+}
+
+footer {
+    margin-top: 180px;
+    width: 100%;
+    border-top: 1px;
+    border-top-color: black;
+    border-top-style: solid;
 }

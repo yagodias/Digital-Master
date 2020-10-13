@@ -28,6 +28,7 @@ ul {
 .topnav {
     font-family: monospace;
     background-color: rgb(34, 33, 33);
+    box-shadow: 6px 7px 3px rgb(14, 14, 14);
     overflow: hidden;
     width: 100%;
     border-radius: 25px;
@@ -35,7 +36,7 @@ ul {
 }
 
 .topnav a {
-    text-shadow: 2px 2px 3px rgb(78, 78, 78);
+    text-shadow: 2px 2px 3px rgb(5, 5, 5);
     float: right;
     color: rgb(141, 140, 140);
     text-align: center;
@@ -62,9 +63,23 @@ ul {
 }
 
 .explicao {
-    color: rgb(20, 20, 20);
-    text-shadow: 2px 2px 3px rgb(190, 190, 190);
+    color: rgb(0, 0, 0);
     font-family: cursive;
     font-size: 28pt;
     text-align: center;
+}
+
+.rodape {
+    font-family: cursive;
+    font-size: 20pt;
+    text-align: center;
+    margin: 30px;
+}
+
+footer {
+    margin-top: 180px;
+    width: 100%;
+    border-top: 1px;
+    border-top-color: black;
+    border-top-style: solid;
 }
