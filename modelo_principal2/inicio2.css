@@ -1,0 +1,36 @@
+#navegacao {
+    font-family: Arial;
+}
+
+#content {
+    font-family: Arial;
+    font-size: large;
+}
+
+#lorem {
+    font-family: Verdana;
+}
+
+#butao {
+    font-family: Arial;
+    border: 2px;
+    border-color: black;
+    border-radius: 7px;
+    border-style: solid;
+}
+
+footer {
+    margin-top: 200px
+}
+
+#imagem {
+    margin: auto;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    transition: 0.4s;
+}
+
+#imagem:active{
+    width: 500px;
+}

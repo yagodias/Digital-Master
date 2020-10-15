@@ -54,9 +54,9 @@ ul{
 }
 
 h2{
-    color:  rgb(23, 23, 24);
+    color:  rgb(0, 0, 0);
     font-size: 35pt;
-    font-family: fantasy;
+    font-family: Arial;
     transition: 0.5s;
     text-align: center;
     width: max-content;
@@ -65,9 +65,9 @@ h2{
 }
 
 h3 {
-    color: rgb(23, 23, 24);
+    color:black;
     font-size: 25pt;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 1%;
     margin-top: 1opx;
     width: max-content;
@@ -146,4 +146,14 @@ footer {
 
 .descricao:hover {
     font-size: 30pt;
+}
+
+.inicio2 {
+    color: rgb(255, 2, 179);
+    background-color: rgb(50, 12, 88);
+    margin: auto;
+    text-align: centers;
+    border: 6px;
+    border-color: green;
+    border-style: double;
 }
