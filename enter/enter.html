@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter</title>
+    <!--Icon-->
+    <link rel="shortcut icon" href="moco_lindo.jpg" type="image/jpg">
+    <!--Google Icons-->
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <!--Materialize CSS-->  
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    
+    <!--Code JQuery-->  
+      <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>     
+
+    <!--Code JavaScript-->  
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
+
+      <style>
+          #menu:hover {
+            background-color: rgb(45, 30, 250);
+          }
+
+          #h3 {
+              margin-top: 40px;
+              margin-bottom: 20px;
+          }
+      </style>
+</head>
+<body>
+
+    <ul id="dropdown" class="dropdown-content">
+        <li><a href="file:///C:/Users/U460/Desktop/Digital_Master/log/login.html" class="black-text">Log in</a></li>
+        <li><a href="file:///C:/Users/U460/desktop/digital_master/variantes_pagina2/variantes.html" class="black-text">Others</a></li>
+        <li><a href="file:///C:/Users/U460/desktop/digital_master/contato_pagina2/contato.html" class="black-text">Contact</a></li>
+        <li><a href="file:///C:/Users/U460/Desktop/Digital_Master/sobre_pagina2/sobre.html" class="black-text">About Us</a></li>
+    </ul>
+
+    <nav class="nav-wrapper blue darken-4">
+        <a href="file:///C:/Users/U460/Desktop/Digital_Master/modelo_principal2/inicio2.html" class="brand-logo">Digital Master</a>
+        <ul  class="right">
+            <li><a id="menu" href="" class="dropdown-button" data-activates="dropdown"><i class="material-icons">menu arrow_drop_down</i></a></li>
+        </ul>
+    </nav>
+
+    <h3 id="h3" class="container center">
+        Enter account
+    </h1>
+
+    <div class="row container">
+        <div class="input-field col s4">
+            <input type="text" id="name">
+            <label for="name">Name</label>
+        </div>
+        <div class="input-field col s4">
+            <input type="number" id="phone">
+            <label for="phone">Phone</label>
+        </div>
+        <div class="input-field col s4">
+            <input type="text" id="blood">
+            <label for="blood">Blood type</label>
+        </div>
+    </div>
+
+    <div class="container center">
+        <button class="btn blue darken-4 waves-effect waves-light">
+            ENTER
+        </button>
+    </div>
+
+    <script>
+        $(".dropdown-content").dropdown();
+    </script>
+</body>
+</html>

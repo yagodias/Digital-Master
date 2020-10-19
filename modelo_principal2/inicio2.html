@@ -4,55 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Master</title>
-    <!--Icon-->
-    <link rel="shortcut icon" href="moco_lindo.jpg" type="image/jpg">
-    <!--Materialize CSS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
     <!--Google Icons-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="inicio2.css">
+      <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <!--Materialize CSS-->  
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    
+    <!--Code JQuery-->  
+      <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>     
 
-    <style>
-      footer {
-        margin-bottom: 30px;
-        border-top-color: black;
-        border-top: 1px;
-        border-top-style: solid;
-      }
+    <!--Code JavaScript-->  
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
+    
+    <!--ID CSS-->
+      <link rel="stylesheet" href="inicio2.css">
 
-      #developed {
-        font-size: x-large;
-        font-family: Arial;
-      }
-    </style>
 </head>
-<body class="grey darken-2">
-  
-      <nav class="nav-wrapper black z-depth-1 hoverable">
-          <a href="#" class="brand-logo waves-effect waves-light hoverable">Digital Master</a>
-          <a href="#" data-target="mobile" class="sidenav-trigger">
-            <i class="material-icons">menu</i>
-          </a>
-          <ul class="right hide-on-med-and-down">
-            <li class="waves-effect waves-light hoverable"><a href="file:///C:/Users/U460/desktop/digital_master/variantes_pagina2/variantes.html">Others</a></li>
-            <li class="waves-effect waves-light hoverable"><a href="file:///C:/Users/U460/Desktop/Digital_Master/sobre_pagina2/sobre.html">About Us</a></li>
-            <li class="waves-effect waves-light hoverable"><a href="file:///C:/Users/U460/desktop/digital_master/contato_pagina2/contato.html">Contact</a></li>
-          </ul>
-      </nav>   
-      
-        <ul class="sidenav" id="mobile">
-            <li><a href="#">Others</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+<body>
+          <!-- Dropdown Structure --> 
+          <ul id="dropdown1" class="dropdown-content">
+            <li><a href="file:///C:/Users/U460/Desktop/Digital_Master/enter/enter.html" class="black-text">Enter</a></li>
+            <li><a href="file:///C:/Users/U460/Desktop/Digital_Master/log/login.html" class="black-text">Log In</a></li>
+          </ul>      
 
-      <h2 class="black-text">
+          <ul id="dropdown2" class="dropdown-content">
+            <li><a href="file:///C:/Users/U460/desktop/digital_master/variantes_pagina2/variantes.html" class="black-text">Others</a></li>
+            <li><a href="file:///C:/Users/U460/desktop/digital_master/contato_pagina2/contato.html" class="black-text">Contact</a></li>
+            <li><a href="file:///C:/Users/U460/Desktop/Digital_Master/sobre_pagina2/sobre.html" class="black-text">About Us</a></li>
+          </ul>
+
+        <nav id="navegacao" class="blue darken-4 z-depth-0">
+          <div class="nav-wrapper">
+            <li href="#!" class="brand-logo white-text center">Digital Master</li>
+          <ul class="right" >
+            <li><a href="#!" id="li" class="dropdown-button" data-activates="dropdown2"><i class="material-icons white-text">menu</i></a></li>
+            <li><a id="li" class="dropdown-button black-text z-depth-0" href="#!" data-activates="dropdown1"><i class="material-icons white-text">account_box arrow_drop_down</i></a></li>
+          </ul>
+          </div>
+        </nav>
+
+      <h2 id="h2" class="black-text container center">
         Already heard about dark matter?
       </h2>
-
-      <h3 class="black-text">
-        Explanation below
-      </h3>
 
           <h1 class="center-align black-text">
             Dark Matter
@@ -73,8 +66,6 @@
               </p>
             </div>
 
-            
-
             <div class="col s6 black-text left-align">
               <p id="content" class="black-text">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -85,14 +76,14 @@
 
           <div class="container center">
             <a href="file:///C:/Users/U460/desktop/digital_master/descricao2/information.html" class="black-text">
-              <button id="butao" href="" class=" black-text grey darken-2 btn z-depth-1 waves-effect waves-light hoverable">More information</button>
+              <button id="butao" href="" class="white-text blue darken-1 btn z-depth-1 waves-effect waves-light hoverable">More information</button>
             </a>
           </div>
             <br>
 
           <div class="container center">
             <a href="file:///C:/Users/U460/desktop/digital_master/purchase/purchase.html" class="black-text">
-            <button id="butao" class="black-text grey darken-2 waves-effect waves-light btn hoverable">  
+            <button id="butao" class="white-text blue darken-1 waves-effect waves-light btn hoverable">  
               <i class="material-icons left">shopping_cart</i>
               Purchase
             </button>
@@ -105,12 +96,10 @@
           </p>
           </footer>
 
-        <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         
-        <!-- Compiled and minified JQuery-->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-      <script src="materialize_digital.js"> </script>
+      <script>
+        $(".dropdown-button").dropdown();
+      </script>
   </body>
 </html>
