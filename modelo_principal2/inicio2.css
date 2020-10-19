@@ -31,19 +31,15 @@
     transition: 0.4s;
 }
 
-#imagem:active{
-    width: 500px;
-}
-
 #navegacao {
-    padding-bottom: 70px;
+    padding-bottom: 60px;
     border-bottom-style:solid ;
     border-bottom-color: blue;
     border-bottom-width: 1px;
   }
 
   #h2 {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 90px;
   }
 
@@ -67,15 +63,15 @@
     background-color:rgb(0, 10, 143);
   }
 
-  #li:hover {
-    border-radius: 10px;
-    border: 1px;
-    border-style: solid;
-    border-color: rgb(0, 10, 143);
-    background-color: rgb(0, 10, 143);
+  #med-up {
+    margin-bottom: 30px;
+    background-color: rgb(59, 72, 255);
+    border-color: red;
   }
 
   #butao {
+    font-size: large;
+    padding: 10px;
     border: blue;
   }
 

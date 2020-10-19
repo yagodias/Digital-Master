@@ -27,23 +27,31 @@
               margin-top: 40px;
               margin-bottom: 20px;
           }
+
+          #med-up {
+              margin-bottom: 30px;
+          }
       </style>
 </head>
 <body>
 
-    <ul id="dropdown" class="dropdown-content">
-        <li><a href="file:///C:/Users/U460/Desktop/Digital_Master/log/login.html" class="black-text">Log in</a></li>
+    <nav class="blue darken-4">
+        <div class="nav-wrapper">
+        <a href="file:///C:/Users/U460/Desktop/Digital_Master/modelo_principal2/inicio2.html" class="brand-logo">Digital Master</a>
+        <ul  class="right">
+            <a id="med-up" class="btn blue darken-4 z-depth-0 hide-on-small" data-activates="slide-out"><i class="material-icons">menu</i></a>
+            <a id="small" class="btn blue darken-4 z-depth-0 hide-on-med-and-up" data-activates="slide-out"><i class="material-icons">menu</i></a>
+        </ul>
+    </div>
+    </nav>
+
+    <ul id="slide-out" class="side-nav">
+        <li><a href="file:///C:/Users/U460/Desktop/Digital_Master/log/login.html" class="black-text">Log in</a></li>        
+        <li><div class="divider"></div></li>
         <li><a href="file:///C:/Users/U460/desktop/digital_master/variantes_pagina2/variantes.html" class="black-text">Others</a></li>
         <li><a href="file:///C:/Users/U460/desktop/digital_master/contato_pagina2/contato.html" class="black-text">Contact</a></li>
         <li><a href="file:///C:/Users/U460/Desktop/Digital_Master/sobre_pagina2/sobre.html" class="black-text">About Us</a></li>
     </ul>
-
-    <nav class="nav-wrapper blue darken-4">
-        <a href="file:///C:/Users/U460/Desktop/Digital_Master/modelo_principal2/inicio2.html" class="brand-logo">Digital Master</a>
-        <ul  class="right">
-            <li><a id="menu" href="" class="dropdown-button" data-activates="dropdown"><i class="material-icons">menu arrow_drop_down</i></a></li>
-        </ul>
-    </nav>
 
     <h3 id="h3" class="container center">
         Enter account
@@ -71,7 +79,7 @@
     </div>
 
     <script>
-        $(".dropdown-content").dropdown();
+        $(".btn").sideNav();
     </script>
 </body>
 </html>

@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Others</title>
-    <!--Materialize CSS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
     <!--Google Icons-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!--Icon-->
-    <link rel="shortcut icon" href="moco_lindo.jpg" type="image/jpg">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+  
+  <!--Materialize CSS-->  
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+  
+  <!--Code JQuery-->  
+    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>     
+
+  <!--Code JavaScript-->  
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
+  
     
     <style>
         h4 {
@@ -35,14 +41,6 @@
             transition: 0.4s;
         }
 
-        #image:active {
-            width: 450px;
-            border: 4px;
-            border-style: solid;
-            border-radius: 8px;
-            border-color: blue;
-        }
-
         footer {
             margin-top: 90px;
             margin-bottom: 30px;
@@ -55,16 +53,27 @@
             font-size: x-large;
             font-family: Arial;
         }
+
+        #med-up {
+            margin-bottom: 30px;
+        }
     </style>
 </head>
 <body>
-    <nav class="nav-wrapper black z-depth-1 hoverable">
-        <a href="file:///C:/Users/U460/Desktop/Digital_Master/modelo_principal2/inicio2.html" class="brand-logo waves-effect waves-light hoverable">Digital Master</a>
+    <nav class="blue darken-4 z-depth-0 hoverable">
+        <div class="nav-wrapper">
+        <a href="file:///C:/Users/U460/Desktop/Digital_Master/modelo_principal2/inicio2.html" class="brand-logo">Digital Master</a>
         <ul class="right">
-            <li class="hoverable"><a href="file:///C:/Users/U460/Desktop/Digital_Master/sobre_pagina2/sobre.html">About Us</a></li>
-            <li class="hoverable"><a href="file:///C:/Users/U460/desktop/digital_master/contato_pagina2/contato.html">Contact</a></li>
+            <a id="med-up" class="btn blue darken-4 z-depth-0 hide-on-small-only" data-activates="slide-out"><i class="material-icons">menu</i></a>
+            <a id="small" class="btn blue darken-4 z-depth-0 hide-on-med-and-up" data-activates="slide-out"><i class="material-icons">menu</i></a>
         </ul>
+        </div>
     </nav>
+
+    <ul id="slide-out" class="side-nav">
+        <li><a href="file:///C:/Users/U460/Desktop/Digital_Master/sobre_pagina2/sobre.html">About Us</a></li>
+        <li><a href="file:///C:/Users/U460/desktop/digital_master/contato_pagina2/contato.html">Contact</a></li>
+    </ul>
 
     <h1 class="center">
         Companies
@@ -104,12 +113,9 @@
             Developed by Yago Dias
         </p>
     </footer>
-    
-    <!--Compiled and minified JavaScript-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-
-    <!--Compiled and minified JQuery-->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $(".btn").sideNav();
+    </script>
 </body>
 </html>

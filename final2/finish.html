@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finish</title>
-     <!--Icon-->
-     <link rel="shortcut icon" href="moco_lindo.jpg" type="image/jpg">
-     <!--Materialize CSS-->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
-     <!--Google Icons-->
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!--Google Icons-->
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <!--Materialize CSS-->  
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    
+    <!--Code JQuery-->  
+      <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>     
 
+    <!--Code JavaScript-->  
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
+    
      <style>
          #Congratulations {
             margin-top: 250px;
@@ -18,6 +24,7 @@
          }
 
          #butao {
+             padding: 10px;
              margin-top: 250px;
              border-radius: 7px;
          }
@@ -34,26 +41,28 @@
             border-top-width: 1px;
             border-top-color: black;
          }
+
+         #med-up {
+             margin-bottom: 30px;
+         }
      </style>
 </head>
-<body class="grey darken-3">
+<body>
 
-    <nav class="nav-wrapper black">
-        <a href="file:///C:/Users/U460/Desktop/Digital_Master/modelo_principal2/inicio2.html" class="brand-logo">Digital Master</a>
-        <a href="" data-target="mobile" class="sidenav-trigger">
-            <i class="material-icons">menu</i>
-        </a>
-        <ul class="right hide-on-med-and-down">
-            <li class="waves-effect waves-light hoverable"><a href="file:///C:/Users/U460/desktop/digital_master/variantes_pagina2/variantes.html">Others</a></li>
-            <li class="waves-effect waves-light hoverable"><a href="file:///C:/Users/U460/Desktop/Digital_Master/sobre_pagina2/sobre.html">Contact</a></li>
-            <li class="waves-effect waves-light hoverable"><a href="file:///C:/Users/U460/desktop/digital_master/contato_pagina2/contato.html">About Us</a></li>
-        </ul>
+    <nav class="blue darken-4">
+        <div class="nav-wrapper">
+                <a href="file:///C:/Users/U460/Desktop/Digital_Master/modelo_principal2/inicio2.html" class="brand-logo">Digital Master</a>
+            <ul class="right">
+                <a id="med-up" class="btn blue darken-4 z-depth-0 hide-on-small-only" data-activates="slide-out"><i class="material-icons">menu</i></a>
+                <a id="small" class="btn blue darken-4 z-depth-0 hide-on-med-and-up" data-activates="slide-out"><i class="material-icons">menu</i></a>
+            </ul>
+        </div>
     </nav>
 
-    <ul class="sidenav" id="mobile">
-        <li><a href="">Others</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">About Us</a></li>
+    <ul class="side-nav" id="slide-out">
+        <li><a href="file:///C:/Users/U460/desktop/digital_master/variantes_pagina2/variantes.html">Others</a></li>
+        <li><a href="file:///C:/Users/U460/desktop/digital_master/contato_pagina2/contato.html">Contact</a></li>
+        <li><a href="file:///C:/Users/U460/Desktop/Digital_Master/sobre_pagina2/sobre.html">About Us</a></li>
     </ul>
     
     <h1 id="Congratulations" class="center">
@@ -61,10 +70,8 @@
     </h1>
 
     <div class="center">
-        <a href="file:///C:/Users/U460/desktop/digital_master/purchase/purchase.html" class="white-text">
-            <button id="butao" class="black waves-effect waves-light btn hoverable">
-                Back
-            </button>
+        <a id="butao" href="file:///C:/Users/U460/Desktop/Digital_Master/modelo_principal2/inicio2.html" class="blue darken-4 white-text waves-effect waves-light hoverable">
+            Back   
         </a>
     </div>
 
@@ -73,11 +80,9 @@
             Developed by Yago Dias
         </p>
     </footer>
-        <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        
-    <!-- Compiled and minified JQuery-->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
+    <script>
+        $(".btn").sideNav();
+    </script>
 </body>
 </html>
